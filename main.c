@@ -37,7 +37,7 @@ int isprime(LL n) {
   }
   return 1;
 }
- LL rand_prime(int lower, int upper) {
+ LL rand_prime(int lower, int upper) { 
   LL spread = upper - lower + 1;
   while(1) {
     LL p = 1 | (rand() % spread + lower);
